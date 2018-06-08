@@ -65,6 +65,12 @@ public class MyForkJoinPool {
 	}
 	*/
 	
+	/**
+	 * 第二种方式：extends RecursiveTask 
+	 * 有返回值
+	 * @author xiafaqi
+	 *
+	 */
 	static class AddTask extends RecursiveTask<Long> {
 
 		int start, end;
