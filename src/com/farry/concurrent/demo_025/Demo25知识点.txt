@@ -1,0 +1,27 @@
+知识点
+
+1：对于map/set的使用
+HashMap
+TreeMap // 红黑树，本身就是加好顺序的
+LinkedHashMap
+
+Hashtable
+Collections.synchronizedxxx
+
+CoucurrentHashMap
+ConcurrentSkipListMap
+
+2：队列
+ArrayList
+LinkedList
+Collections.synchronizedxxx
+CopyOnWriteList // 读的量特别大，写的量特别少
+
+Queue
+   ConcurrentLinkedQueue //concurrentArrayQueue
+   BlockingQueue
+      LinkedBQ
+      ArrayBQ
+      TransferQueue
+      SynchronusQueue
+   DelayQueue执行延时任务

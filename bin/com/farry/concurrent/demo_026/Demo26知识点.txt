@@ -1,0 +1,26 @@
+知识点
+
+Executor
+ExecutorService submit
+Callable = Runnable
+Executors
+ThreadPool
+Future
+
+fixed cached single scheduled workstealing forkjoin
+
+ThreadPoolExecutor
+
+PStreamAPI
+
+线程池的好处：
+1、可以重用存在的线程，减少对象创建、消亡的开销，性能佳；
+2、可以有效的控制最大并发线程数，提高系统资源的使用率，同事避免过多的资源竞争，避免阻塞；
+3、提供定时执行、定期执行、单线程、并发数控制等功能；
+
+java 线程池
+java通过Executors提供了4中线程池，分别为：
+1、newCachedThreadPool:创建一个可缓存线程池，如果线程池长度超过处理需要，可灵活地回收空闲线程，若无可回收则创建新线程；
+2、newFixedThreadPool:创建一个定长线程池，可控制线程最大并发数，超出的线程会在队列中等待；
+3、newScheduledThreadPool:创建一个定长线程池，支持定时及周期性任务执行；
+4、newSingleThreadPool:创建一个单线程化的线程池，它只会用唯一的工作线程来执行任务，保证所有的任务按照指定的顺序(FIFO,LIFO,优先级)执行。

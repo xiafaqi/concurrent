@@ -1,0 +1,5 @@
+知识点
+
+ReentrantLock替代synchronized,ReentrantLock中lock和unlock方法的使用
+ReentrantLock中interrupted方法的使用
+ReentrantLock中公平锁的使用

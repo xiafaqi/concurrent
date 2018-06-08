@@ -1,0 +1,5 @@
+知识点：
+
+面试题的写法
+1、wait和notify如何结合一起使用
+2、CountDownLatch中门阀Latch的使用
